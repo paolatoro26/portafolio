@@ -1,0 +1,120 @@
+
+.container-fluid{
+	width:100%
+}
+.row{
+	margin: 0;
+	
+}
+/* ------------------------COMUN-------*/
+header,.BANNER,.PROYECTOS{
+	color: white
+}
+header ul li A{
+	color: white
+}
+button{
+	color: white;
+	border-radius: 20px;
+	background-color:#FA8258;
+	font-size:13px;
+	padding: 5px;
+	border: #FA8258
+}
+hr{
+	width: 50px
+}
+.sep-1{
+	border :2px solid #FA8258;
+
+}
+/* -----------------------HEADER-------*/
+header{
+	background: url(../img/header.jpg);
+	background-size: cover;
+	
+}
+.navbar{
+	border-bottom: 1px solid #FA8258;
+	position: fixed;
+	z-index: 2000;
+	width: 100%;
+	background-color: rgba(238,211,163,.3);
+}
+header button{
+	color: black
+}
+
+/* -------------------------HERO-------*/
+.HERO .intro{
+	margin: 170px 0
+}
+
+/* -----------------------BANNER-------*/
+.BANNER{
+	background-color:#FA8258;
+
+}
+.BANNER .container{
+	padding: 40px 10px
+}
+
+/* --------------------SERVICIOS-------*/
+.SERVICIOS .container{
+	padding: 50px 0
+}
+.SERVICIOS .icono i{
+	color:#FA8258;
+	font-size: 30px;
+	
+}
+.SERVICIOS h4{
+	font-size: 15px
+}
+.sep-2{
+	border:2px white solid;
+}
+.SERVICIOS h5{
+	color: #BDBDBD
+}
+
+/* --------------------PROYECTOS-------*/
+.PROYECTOS .container-fluid{
+	background-color: rgb(55, 46, 43);
+	padding: 0
+}
+button.blanco{
+	background: white;
+	color: black;
+	margin-bottom: 30px
+}
+.PROYECTOS .col-md-4{
+	padding: 0
+}
+/* -----------------------FOOTER-------*/
+footer{
+	padding: 60px 0
+}
+footer .row p.correo{
+	color: rgb(226, 68, 1)
+}
+footer i{
+	font-size: 20px
+}
+
+/* ----------------MEDIA QUERIES-------*/
+@media screen and (max-width : 768px) {
+	footer i {font-size: 40px	}
+	footer h3{font-size:30px}
+	.PROYECTOS .mas-info{
+		padding: 30px}
+	.SERVICIOS .icono i{font-size: 50px}
+	.SERVICIOS h4{font-size:22px}
+	.HERO .intro{	margin: 70px 40px}
+	.navbar{background: white;
+		z-index: 2;
+		color: #FA8258;}
+	
+}
+
+
