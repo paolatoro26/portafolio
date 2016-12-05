@@ -1,10 +1,12 @@
 
+*{outline: 1px solid red}
 .container-fluid{
+	margin: 0;
 	width:100%
 }
+
 .row{
-	margin: 0;
-	
+	margin: 0
 }
 /* ------------------------COMUN-------*/
 header,.BANNER,.PROYECTOS{
@@ -37,7 +39,7 @@ header{
 .navbar{
 	border-bottom: 1px solid #FA8258;
 	position: fixed;
-	z-index: 2000;
+	z-index: 6000;
 	width: 100%;
 	background-color: rgba(238,211,163,.3);
 }
@@ -55,6 +57,7 @@ header button{
 	background-color:#FA8258;
 
 }
+.BANNER .row{margin: 0}
 .BANNER .container{
 	padding: 40px 10px
 }
@@ -77,6 +80,14 @@ header button{
 .SERVICIOS h5{
 	color: #BDBDBD
 }
+.SERVICIOS .row{
+	margin: 0
+}
+.PROYECTOS .col-md-4{
+	padding: 0;
+	margin:0;
+
+}
 
 /* --------------------PROYECTOS-------*/
 .PROYECTOS .container-fluid{
@@ -88,8 +99,9 @@ button.blanco{
 	color: black;
 	margin-bottom: 30px
 }
-.PROYECTOS .col-md-4{
-	padding: 0
+.PROYECTOS .row{
+	width: 100%;
+	margin: 0
 }
 /* -----------------------FOOTER-------*/
 footer{
@@ -112,8 +124,9 @@ footer i{
 	.SERVICIOS h4{font-size:22px}
 	.HERO .intro{	margin: 70px 40px}
 	.navbar{background: white;
-		z-index: 2;
-		color: #FA8258;}
+	
+		color: #FA8258;
+		}
 	
 }
 
