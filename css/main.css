@@ -46,7 +46,14 @@ header{
 header button{
 	color: black
 }
-
+span{
+	background-color: #FA8258
+}
+ul.navbar-nav a{
+	color: #FA8258;
+	border: 2px solid #FA8258;
+	border-radius: 20px
+}
 /* -------------------------HERO-------*/
 .HERO .intro{
 	margin: 170px 0
@@ -124,10 +131,8 @@ footer i{
 	.SERVICIOS h4{font-size:22px}
 	.HERO .intro{	margin: 70px 40px}
 	.navbar{background: white;
-	
-		color: #FA8258;
-		}
-	
+			color: #FA8258;	}
+	.PROYECTOS 
 }
 
 
