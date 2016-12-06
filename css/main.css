@@ -46,14 +46,7 @@ header{
 header button{
 	color: black
 }
-span{
-	background-color: #FA8258
-}
-ul.navbar-nav a{
-	color: #FA8258;
-	border: 2px solid #FA8258;
-	border-radius: 20px
-}
+
 /* -------------------------HERO-------*/
 .HERO .intro{
 	margin: 170px 0
@@ -132,7 +125,21 @@ footer i{
 	.HERO .intro{	margin: 70px 40px}
 	.navbar{background: white;
 			color: #FA8258;	}
-	.PROYECTOS 
+	span{
+	background-color: #FA8258
+}
+	ul.navbar-nav a{
+	color: #FA8258;
+	border: 2px solid #FA8258;
+	border-radius: 20px}
+	.img-fondo{
+	background: rgba(240,95,64,0.8);
+	z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;	}
+    .img-fondo p{padding-top: 22%}
+	
 }
 
 
